@@ -16,4 +16,5 @@ app.get("/usuarios", (req, res) => {
   res.json(usuarios);
 });
 
-app.listen(port, () => console.log(`Server is up and running on port ${port}`));
+app.listen(port, () =>{
+ console.log(`Server is up and running on port ${port}`)});
